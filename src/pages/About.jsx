@@ -3,7 +3,7 @@ import { useState } from 'react';
 import './About.css';
 import log from './people-avatar-collection-free-vekjnctor.png';
 import { Card, Flex, Image, Typography } from 'antd';
-import Spinner from './spinner';
+import Spinner from './Spinner';
 
 import prize from './prize1.jpg';
 import Title from 'antd/es/typography/Title';

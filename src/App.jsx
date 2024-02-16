@@ -9,7 +9,7 @@ import Navbar from './Navbar'
 import Contact from './pages/contact'
 import { useState } from 'react'
 import { ConfigProvider, Drawer,theme } from 'antd'
-import Spinner from './pages/spinner'
+import Spinner from './pages/Spinner'
 function App() {
   const [isitopen,setisitopen] = useState(false);
   window.onscroll=()=>{

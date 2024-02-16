@@ -1,5 +1,5 @@
 import { Card, Flex, Progress, Space } from "antd";
-import Spinner from "./spinner";
+import Spinner from "./Spinner";
 import Title from "antd/es/typography/Title";
 
 const Skills = () => {
