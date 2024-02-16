@@ -26,17 +26,6 @@ const Skills = () => {
         { label: "MySQL", value: 50 },
       ],
     },
-    {
-      title: "Soft Skills",
-      progressData: [
-        { label: "React", value: 0 },
-        { label: "Figma", value: 0 },
-        { label: "OpenCV", value: 0 },
-        { label: "Node", value: 0 },
-        { label: "MongoDB", value: 0 },
-        { label: "MySQL", value: 0 },
-      ],
-    },
     
   ];
 
@@ -51,7 +40,7 @@ const Skills = () => {
               <Card
                 key={key}
                 hoverable
-                style={{ width:'400px',minWidth: '300px', marginBottom: '16px', flexBasis: 'calc(33.33% - 16px)' }}
+                
               >
                 <Title style={{ whiteSpace: 'nowrap' }}>{data.title}</Title>
                 <Space direction="vertical" style={{ width: '100%' }}>

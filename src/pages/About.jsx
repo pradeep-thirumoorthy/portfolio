@@ -14,7 +14,6 @@ const About = () =>{
         setheight(document.documentElement.scrollTop);
         console.log(topheight);
     }
-    
     return(
         
         <div className="About-container page-container" >
@@ -73,8 +72,6 @@ I love solving problems and making things work smoothly. I believe in writing ne
         <Title underline level={4}>Achievements</Title>
         I won FIRST PRIZE 🥇 in the Renaissance Design Jam!<br></br>
         <a target='blank' href='https://www.linkedin.com/posts/pradeep-thirumoorthy_i-am-delighted-to-announce-that-i-won-first-activity-7163397905393856512-w7ph?utm_source=share&utm_medium=member_desktop'><Image preview={false} src={prize}></Image></a>
-        </Card>
-    <Card className='Card'>
         </Card>
                 </Flex>
 </div>

@@ -11,9 +11,9 @@ const Navbar = ({ setisit }) => {
   const [isDropdownVisible, setIsDropdownVisible] = useState(false);
 
   const data = [
-    { 'value': 'About', 'top': 670, 'min': 500, 'max': 1000 },
-    { 'value': 'Projects', 'top': 1410, 'min': 1000, 'max': 1800 },
-    { 'value': 'Skills', 'top': 2500, 'min': 1800, 'max': 2600 },
+    { 'value': 'About', 'top': 670, 'min': 500, 'max': 1200 },
+    { 'value': 'Projects', 'top': 1410, 'min': 1200, 'max': 2000 },
+    { 'value': 'Skills', 'top': 2500, 'min': 2000, 'max': 2800 },
   ];
 
   useEffect(() => {
