@@ -6,10 +6,11 @@ import { Card, Carousel, ConfigProvider, Image, Modal, theme } from 'antd';
 import {
   LinkOutlined,
 } from '@ant-design/icons';
-import { importAll } from './../imageLoader';
+
+import { projectAImages, projectBImages, projectCImages } from '../photos/Photos2';
 import Spinner from './Spinner';
 const Projects = () => {
-   const data = jsondata.projects;
+  const data = jsondata.projects;
   const [open, setOpen] = useState('');
   const [images, setImages] = useState([]);
   const [selectedProject, setSelectedProject] = useState(data[0]);
@@ -17,7 +18,24 @@ const Projects = () => {
   useEffect(() => {
     const fetchImages = async () => {
       try {
-        const projectImagesArray = await importAll(selectedProject.imagePaths);
+        let projectImagesArray = [];
+
+        switch (selectedProject.title) {
+          case 'Student Complaint System':
+            projectImagesArray = await projectAImages;
+            break;
+          case 'E vault System':
+            projectImagesArray = await projectBImages;
+            break;
+          case 'Assist App':
+            projectImagesArray = await projectCImages;
+            break;
+          // Add more cases if needed for other projects
+
+          default:
+            break;
+        }
+
         setImages(projectImagesArray);
       } catch (error) {
         console.error('Error fetching images:', error);
@@ -25,8 +43,7 @@ const Projects = () => {
     };
 
     fetchImages();
-  }, [selectedProject]);
-  return (
+  }, [selectedProject]);return (
     <>
       <div className="page-container" id='Project'>
       <div className="about-item2 about-title">
