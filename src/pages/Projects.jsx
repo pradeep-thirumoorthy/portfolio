@@ -7,7 +7,7 @@ import {
   LinkOutlined,
 } from '@ant-design/icons';
 
-import { projectAImages, projectBImages, projectCImages } from '../photos/Photos2';
+import { projectAImages, projectBImages, projectCImages } from '../assets/photos/Photos2';
 import Spinner from './Spinner';
 const Projects = () => {
   const data = jsondata.projects;
