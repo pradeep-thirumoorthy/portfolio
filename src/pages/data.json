@@ -1,0 +1,106 @@
+{
+    "projects": [
+      {
+        "title": "Student Complaint System",
+        "description": "This is a detailed description of Project A. It involves the development of a new software application that aims to streamline business processes.",
+        "teamMembers": [
+          {"name": "Pradeep T", "role": "Full Stack Developer","Link":"http://localhost:5173"},
+          {"name": "Sabarish V", "role": "Front End Developer","Link":"https://sabarishv.vercel.app/"},
+          {"name": "Sabarnika S", "role": "Lead Developer","Link":"https://github.com/nithesh407/dapp"},
+          {"name": "Santhosh M", "role": "UI/UX Designer","Link":"https://github.com/nithesh407/dapp"}
+        ],
+        "Link":"https://github.com/pradeep-thirumoorthy/KEC_SCP",
+        "startDate": "2023-02-15",
+        "endDate": "2023-08-30",
+        "imagePaths":
+          [
+            "./photos/projectA/image1.png",
+            "./photos/projectA/image2.png",
+            "./photos/projectA/image3.png",
+            "./photos/projectA/image4.png",
+            "./photos/projectA/image5.png",
+            "./photos/projectA/image6.png",
+            "./photos/projectA/image7.png",
+            "./photos/projectA/image8.png",
+            "./photos/projectA/image9.png",
+            "./photos/projectA/image10.png"
+          ],
+        "benefits": [
+          "Improved efficiency",
+          "Enhanced user experience",
+          "Cost savings"
+        ],
+        "milestones": [
+          {"name": "Project Kickoff", "date": "2023-02-15"},
+          {"name": "Beta Release", "date": "2023-06-30"},
+          {"name": "Final Delivery", "date": "2023-08-30"}
+        ]
+      },
+      {
+        "title": "E vault System",
+        "description": "Project B is focused on creating a mobile application for fitness tracking. The goal is to encourage users to lead a healthier lifestyle.",
+        "teamMembers": [
+          {"name": "Pradeep T", "role": "Full Stack Developer","Link":"http://localhost:5173"},
+          {"name": "Nithesh R", "role": "Full Stack Developer","Link":"https://github.com/nithesh407/dapp"},
+          {"name": "Pradeep D", "role": "Full Stack Developer","Link":"https://github.com/nithesh407/dapp"},
+          {"name": "Santhosh M", "role": "UI/UX Designer","Link":"https://github.com/nithesh407/dapp"}
+        ],
+        
+        "Link":"https://github.com/nithesh407/dapp",
+        "startDate": "2023-04-01",
+        "endDate": "2023-10-15",
+        "imagePaths":
+          [
+            "./photos/projectB/image1.png",
+            "./photos/projectB/image2.png",
+            "./photos/projectB/image3.png",
+            "./photos/projectB/image4.png",
+            "./photos/projectB/image5.png",
+            "./photos/projectB/image6.png",
+            "./photos/projectB/image7.png",
+            "./photos/projectB/image8.png",
+            "./photos/projectB/image9.png",
+            "./photos/projectB/image10.png"
+          ],
+        "benefits": [
+          "Promotes healthy living",
+          "User-friendly interface",
+          "Cross-platform compatibility"
+        ],
+        "milestones": [
+          {"name": "App Design Finalized", "date": "2023-05-15"},
+          {"name": "Alpha Testing Completed", "date": "2023-08-01"},
+          {"name": "Public Release", "date": "2023-10-15"}
+        ]
+      },
+      {
+        "title": "Assist App",
+        "description": "Project C involves the implementation of a data analytics platform for business intelligence. The aim is to provide valuable insights for decision-making.",
+        "teamMembers": [
+          {"name": "Pradeep T", "role": "Full Stack Developer","Link":"http://localhost:5173"}
+        ],
+        
+        "Link":"https://github.com/pradeep-thirumoorthy/Assist-React-App",
+        "startDate": "2023-01-10",
+        "endDate": "2023-07-31",
+        "imagePaths":
+          [
+            "./photos/projectC/image1.png",
+            "./photos/projectC/image2.png",
+            "./photos/projectC/image3.png",
+            "./photos/projectC/image4.png",
+            "./photos/projectC/image5.png"
+          ],
+        "benefits": [
+          "Data-driven decision-making",
+          "Improved business intelligence",
+          "Enhanced data security"
+        ],
+        "milestones": [
+          {"name": "Data Model Development", "date": "2023-03-01"},
+          {"name": "Platform Testing", "date": "2023-06-15"},
+          {"name": "Platform Deployment", "date": "2023-07-31"}
+        ]
+      }
+    ]
+  }

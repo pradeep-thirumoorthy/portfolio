@@ -1,0 +1,41 @@
+.Navbarcontainer{
+    display: flex;
+    background-color: #2f2f2f;
+    width: 100%;
+    padding: 20px 0px;
+    position: fixed;
+    z-index: 300;
+}
+.Navbarcontainer span {
+    text-decoration: none;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: color 0.5s ease, padding 0.5s ease;
+  }
+  .nav-inactive
+  {
+    background-color: transparent;
+  }
+  .Navbarcontainer span.glow {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 5px; /* Increased padding for emphasis */
+    transition: color 0.5s ease, padding 0.5s ease;
+    color: #777;
+  }
+  
+  .Navbarcontainer span.glow:hover {
+    text-shadow: 0 0 50px white, 0 0 60px white, 0 0 40px white;
+    color: #000;
+  }
+  
+  .Navbarcontainer span:hover {
+    text-shadow: 0 0 50px white, 0 0 20px white, 0 0 30px white;
+    color: white;
+  }
+  
+.boxcontainer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}

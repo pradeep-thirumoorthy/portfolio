@@ -1,0 +1,42 @@
+button.radio
+{
+  background-color: transparent;
+  border-radius: 0%;
+}
+.btn-list
+{
+  border-radius: 10px;
+  background-color: antiquewhite;
+  
+  width: max-content;
+}
+.Card-100 {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+  width: 95%;
+  height: auto;
+  display: inline-block; 
+  text-wrap: wrap;
+  white-space: wrap;
+  word-wrap: wrap;
+  overflow-wrap: break-word;
+}
+html { scroll-behavior: smooth; }
+.Project-Cards {
+  overflow-y: scroll;
+  height: 80vh;
+}
+.hider
+{
+  display: none;
+}
+.card-view
+{
+  display: flex;
+  justify-content:end;
+}
+.card-view a{
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
