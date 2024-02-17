@@ -98,3 +98,7 @@ a:hover svg path {
     gap: 10px;
     padding: 10px;
 }
+.form-row
+{
+    color: white;
+}
