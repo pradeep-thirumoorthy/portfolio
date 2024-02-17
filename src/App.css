@@ -41,6 +41,7 @@
 .page-container{
   height: 105vh;
   margin:0px 10px;
+  padding: 60px 0px 0px 0px;
   background-color: #1a1a1a;
 }
 
@@ -68,21 +69,21 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .page-container{
-    padding: 60px 30px 30px 30px ;
+    padding: 70px 0px 0px 0px ;
   }.page-container2{
-    padding: 60px 30px 30px 30px ;
+    padding: 70px 0px 0px 0px ;
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 801px) {
   .page-container{
-    padding: 60px 30px 30px 30px ;
+    padding: 70px 20px 20px 20px ;
     margin: 0px 100px ;
   }
   .page-container2{
-    padding: 60px 30px 30px 30px ;
+    padding: 70px 20px 20px 20px ;
     margin: 0px 100px ;
   }
 }

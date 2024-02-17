@@ -23,9 +23,10 @@ const About = () =>{
         <Spinner text={'About Me'}/>
             </div>
             
-            
+            <div className='Swiper'>Swipe to right see &gt;&gt;</div>
             <div className="about-item4">
-                <Flex>
+                <Flex >
+                     
     <Card className='Card'>
         <Title underline level={4}>About:</Title>
         <Image src={log} preview={false}></Image>
