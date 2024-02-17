@@ -50,31 +50,17 @@
     color: transparent;
     -webkit-text-stroke: 0.5px white;
 }
-.contact-list {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 10px;
-    padding: 10px;
-}
-
-.contact-list > div {
-    display: flex;
-    align-items: center;
-}
-
-.contact-list img {
-    margin-right: 10px;
-}
 
 .contact-list a {
     text-decoration: none;
     color: #fff;
 }
-.contact-list div
-{
-    display: flex;
+.contact-list img:hover {
+    color: #646cff;
 }
-
+a:hover svg path {
+    fill: #00bfff; /* Change the fill color to your desired hover effect */
+  }
 
 .contact-title{
     
