@@ -12,7 +12,8 @@ const Skills = () => {
         { label: "Java", value: 30 },
         { label: "Python", value: 75 },
         { label: "Javascript", value: 70 },
-        { label: "Rust", value: 10 },
+        { label: "Dart", value: 10 },
+        { label: "Go Lang", value:20}
       ],
     },
     {

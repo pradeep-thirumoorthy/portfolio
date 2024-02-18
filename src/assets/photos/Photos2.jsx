@@ -26,9 +26,10 @@ import b7 from './projectB/image7.png';
 import b8 from './projectB/image8.png';
 import b9 from './projectB/image9.png';
 import b10 from './projectB/image10.png';
+import b11 from './projectB/image11.png';
 
 // Export the imported images for projectB as an array
-export const projectBImages = [b1, b2, b3, b4, b5, b6, b7, b8, b9, b10];
+export const projectBImages = [b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11];
 
 // Import images for projectC individually
 import c1 from './projectC/image1.png';
@@ -43,4 +44,4 @@ import c9 from './projectC/image9.png';
 import c10 from './projectC/image10.png';
 
 // Export the imported images for projectC as an array
-export const projectCImages = [c1, c2, c3, c4, c5, c6, c7, c8, c9, c10];
+export const projectCImages = [];

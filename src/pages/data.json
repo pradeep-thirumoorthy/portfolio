@@ -2,105 +2,59 @@
     "projects": [
       {
         "title": "Student Complaint System",
-        "description": "This is a detailed description of Project A. It involves the development of a new software application that aims to streamline business processes.",
+        "description": "The Student Complaint System is a comprehensive software application developed using a technology stack that includes React for the front end, PHP for the backend, Ant Design (antd) for the user interface components, and MySQL for database management. The system is designed to efficiently handle and streamline the process of managing student complaints within an educational institution.",
+        "TechnologyStack": [
+          {"name": "Front End", "value": "React"},
+          {"name": "Back End", "value": "PHP"},
+          {"name": "UI Framework", "value": "Ant Design (antd)"},
+          {"name": "Database", "value": "MySQL"}
+        ],
         "teamMembers": [
-          {"name": "Pradeep T", "role": "Full Stack Developer","Link":"http://localhost:5173"},
+          {"name": "Pradeep T", "role": "Full Stack Developer","Link":"https://pradeepthirumoorthy.vercel.app/"},
           {"name": "Sabarish V", "role": "Front End Developer","Link":"https://sabarishv.vercel.app/"},
           {"name": "Sabarnika S", "role": "Lead Developer","Link":"https://github.com/nithesh407/dapp"},
-          {"name": "Santhosh M", "role": "UI/UX Designer","Link":"https://github.com/nithesh407/dapp"}
+          {"name": "Santhosh M", "role": "UI/UX Designer","Link":"https://www.linkedin.com/in/santhosh-m-336a35247/"}
         ],
         "Link":"https://github.com/pradeep-thirumoorthy/KEC_SCP",
-        "startDate": "2023-02-15",
-        "endDate": "2023-08-30",
-        "imagePaths":
-          [
-            "./photos/projectA/image1.png",
-            "./photos/projectA/image2.png",
-            "./photos/projectA/image3.png",
-            "./photos/projectA/image4.png",
-            "./photos/projectA/image5.png",
-            "./photos/projectA/image6.png",
-            "./photos/projectA/image7.png",
-            "./photos/projectA/image8.png",
-            "./photos/projectA/image9.png",
-            "./photos/projectA/image10.png"
-          ],
-        "benefits": [
-          "Improved efficiency",
-          "Enhanced user experience",
-          "Cost savings"
-        ],
-        "milestones": [
-          {"name": "Project Kickoff", "date": "2023-02-15"},
-          {"name": "Beta Release", "date": "2023-06-30"},
-          {"name": "Final Delivery", "date": "2023-08-30"}
-        ]
+        "startDate": "Sept 2023",
+        "endDate": "Jan 2024"
       },
       {
-        "title": "E vault System",
-        "description": "Project B is focused on creating a mobile application for fitness tracking. The goal is to encourage users to lead a healthier lifestyle.",
+        "title": "E Vault System",
+        "description": "The E Vault System is a dedicated web application designed to cater to the unique needs of legal professionals, specifically targeting lawyers involved in the storage and management of legal records. This project aims to provide a comprehensive solution for securely storing and organizing legal documents in a digital environment, fostering efficiency and accessibility in the legal profession.",
+        "TechnologyStack": [
+          {"name": "Front End", "value": "React"},
+          {"name": "Back End", "value": "Node"},
+          {"name": "Database", "value": "MySQL"},
+          {"name": "UI Framework", "value": "Ant Design (antd)"},
+          {"name": "Storage", "value": "IPFS"}
+        ],
         "teamMembers": [
-          {"name": "Pradeep T", "role": "Full Stack Developer","Link":"http://localhost:5173"},
-          {"name": "Nithesh R", "role": "Full Stack Developer","Link":"https://github.com/nithesh407/dapp"},
-          {"name": "Pradeep D", "role": "Full Stack Developer","Link":"https://github.com/nithesh407/dapp"},
-          {"name": "Santhosh M", "role": "UI/UX Designer","Link":"https://github.com/nithesh407/dapp"}
+          {"name": "Pradeep T", "role": "Full Stack Developer", "Link": "https://pradeepthirumoorthy.vercel.app/"},
+          {"name": "Nithesh R", "role": "Full Stack Developer", "Link": "https://www.linkedin.com/in/nitheshravikumar/"},
+          {"name": "Pradeep D", "role": "Full Stack Developer", "Link": "https://www.linkedin.com/in/pradeep-dhandapani/"},
+          {"name": "Nithil Prasath", "role": "Front End Developer", "Link": "https://www.linkedin.com/in/nithilprasathk/"}
         ],
-        
-        "Link":"https://github.com/nithesh407/dapp",
-        "startDate": "2023-04-01",
-        "endDate": "2023-10-15",
-        "imagePaths":
-          [
-            "./photos/projectB/image1.png",
-            "./photos/projectB/image2.png",
-            "./photos/projectB/image3.png",
-            "./photos/projectB/image4.png",
-            "./photos/projectB/image5.png",
-            "./photos/projectB/image6.png",
-            "./photos/projectB/image7.png",
-            "./photos/projectB/image8.png",
-            "./photos/projectB/image9.png",
-            "./photos/projectB/image10.png"
-          ],
-        "benefits": [
-          "Promotes healthy living",
-          "User-friendly interface",
-          "Cross-platform compatibility"
-        ],
-        "milestones": [
-          {"name": "App Design Finalized", "date": "2023-05-15"},
-          {"name": "Alpha Testing Completed", "date": "2023-08-01"},
-          {"name": "Public Release", "date": "2023-10-15"}
-        ]
+        "Link": "https://github.com/nithesh407/dapp",
+        "startDate": "Aug 2023",
+        "endDate": " Sept 2023"
       },
+      
       {
         "title": "Assist App",
-        "description": "Project C involves the implementation of a data analytics platform for business intelligence. The aim is to provide valuable insights for decision-making.",
+        "description": "The Assistant App is a productivity-focused application built using the MERN Mobile stack, which includes MongoDB for the database, Express.js for the server, React for the front end, and Node.js for server-side scripting. This versatile application is designed to enhance users' daily productivity and organization.",
+        "TechnologyStack": [
+          {"name": "Front End", "value": "React Native"},
+          {"name": "Back End", "value": "Node"},
+          {"name": "Database", "value": "MongoDB"}
+        ],
         "teamMembers": [
-          {"name": "Pradeep T", "role": "Full Stack Developer","Link":"http://localhost:5173"}
+          {"name": "Pradeep T", "role": "Full Stack Developer", "Link": "https://pradeepthirumoorthy.vercel.app/"}
         ],
-        
-        "Link":"https://github.com/pradeep-thirumoorthy/Assist-React-App",
-        "startDate": "2023-01-10",
-        "endDate": "2023-07-31",
-        "imagePaths":
-          [
-            "./photos/projectC/image1.png",
-            "./photos/projectC/image2.png",
-            "./photos/projectC/image3.png",
-            "./photos/projectC/image4.png",
-            "./photos/projectC/image5.png"
-          ],
-        "benefits": [
-          "Data-driven decision-making",
-          "Improved business intelligence",
-          "Enhanced data security"
-        ],
-        "milestones": [
-          {"name": "Data Model Development", "date": "2023-03-01"},
-          {"name": "Platform Testing", "date": "2023-06-15"},
-          {"name": "Platform Deployment", "date": "2023-07-31"}
-        ]
+        "Link": "https://github.com/pradeep-thirumoorthy/Assist-React-App",
+        "startDate": "Jan 2024",
+        "endDate": "Currently Under Development"
       }
+      
     ]
   }

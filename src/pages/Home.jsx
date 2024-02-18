@@ -1,9 +1,10 @@
 
 import './Home.css'
 import pic from './../svgs/vecteezy_studying-and-learning-online-concept_1270244.svg';
-import { Image } from 'antd';
+import { Image, List } from 'antd';
 import DownloadableFile from './DownloadFile';
 import logo from './1707833865317.jpg';
+import TypewriterList from './Typewriter';
 const Home = () =>{
     const data = ['I',"'",'m',' ','P','R','A','D','E','E','P','.','T']
     return(
@@ -37,8 +38,10 @@ const Home = () =>{
                 <img src={pic} height={'100%'} width={'100%'} alt='vector'/>
             </div>
             <div className='item3'>
-                <div className='small-about'>I aim to work in a challenging job with dedication,utilizing my skills to the fullest in a professional setting. I want to contribute my best to an organization and discover my potential through my responsibilities</div>
-            </div>
+                <div className='small-about'>
+                
+                <TypewriterList/>
+            </div>            </div>
             
             </div>
             

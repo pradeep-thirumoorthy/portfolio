@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import './project.css';
 import jsondata from './data.json';
-import { Card, Carousel, ConfigProvider, Image, Modal, theme } from 'antd';
+import { Card, Carousel, ConfigProvider, Empty, Image, Modal, theme } from 'antd';
 import {
   LinkOutlined,
 } from '@ant-design/icons';
@@ -24,7 +24,7 @@ const Projects = () => {
           case 'Student Complaint System':
             projectImagesArray = await projectAImages;
             break;
-          case 'E vault System':
+          case 'E Vault System':
             projectImagesArray = await projectBImages;
             break;
           case 'Assist App':
@@ -86,22 +86,16 @@ const Projects = () => {
         
         <h3>ScreenShots</h3>
         <Carousel autoplay>
-        {images.map((image, index) => (
+        {(images.length!==0)?images.map((image, index) => (
           <div key={index}>
         <img style={{width:'100%'}} src={image} alt={`Image ${index + 1}`} />
         </div>
-      ))}
+      )):<><Empty/></>}
         </Carousel>
-        <h3>Milestones:</h3>
+        <h3>Technology Stack:</h3>
         <ul>
-          {selectedProject.milestones.map((milestone, index) => (
-            <li key={index}>{milestone.name} - {milestone.date}</li>
-          ))}
-        </ul>
-        <h3>Benefits:</h3>
-        <ul>
-          {selectedProject.benefits.map((benefit, index) => (
-            <li key={index}>{benefit}</li>
+          {selectedProject.TechnologyStack.map((stack, index) => (
+            <li key={index}>{stack.name} - {stack.value}</li>
           ))}
         </ul>
       </Modal>
