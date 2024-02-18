@@ -1,11 +1,14 @@
-import { Button, FloatButton } from 'antd';
+import { FloatButton } from 'antd';
 import YourResumePDF from './../A4 - 1.pdf';
 
 import {DownloadOutlined} from '@ant-design/icons'
 const downloadResume = () => {
   const downloadLink = document.createElement('a');
   downloadLink.href = YourResumePDF;
-  downloadLink.download = 'Pradeep Thirummorthy.pdf';
+
+  // Update the filename dynamically
+  const fileName = 'Pradeep Thirumoorthy.pdf';
+  downloadLink.download = fileName;
 
   document.body.appendChild(downloadLink);
 
