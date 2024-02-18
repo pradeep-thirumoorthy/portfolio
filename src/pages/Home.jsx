@@ -32,7 +32,7 @@ const Home = () =>{
                 </div>
             </div>
             <div className='item4'>
-                <DownloadableFile/></div>
+                </div>
             
             <div className='item2'>
                 <img src={pic} height={'100%'} width={'100%'} alt='vector'/>
@@ -42,7 +42,7 @@ const Home = () =>{
                 
                 <TypewriterList/>
             </div>            </div>
-            
+            <DownloadableFile/>
             </div>
             
         </div>

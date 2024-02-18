@@ -17,7 +17,8 @@ const TypewriterList = () => {
                   "My goal is to go beyond meeting expectations – I want to surpass them and create websites that people love to use.",
                   "Let's make the digital world more amazing together!"
                 ],
-                typeSpeed: 50,
+                delay:6,
+                deleteSpeed:3,
                 autoStart: true,
                 loop: true,
               }}

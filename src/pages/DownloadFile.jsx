@@ -1,25 +1,22 @@
-import { Button } from 'antd';
+import { Button, FloatButton } from 'antd';
 import YourResumePDF from './../A4 - 1.pdf';
 
-const downloadResume = () => {
-  // Create a link element
+import {DownloadOutlined} from '@ant-design/icons'
+const downloadResume = () => {c
   const downloadLink = document.createElement('a');
   downloadLink.href = YourResumePDF;
-  downloadLink.download = 'YourResume.pdf';
+  downloadLink.download = 'Pradeep Thirummorthy.pdf';
 
-  // Append the link to the document
   document.body.appendChild(downloadLink);
 
-  // Trigger a click on the link
   downloadLink.click();
 
-  // Remove the link from the document
   document.body.removeChild(downloadLink);
 };
 
 const DownloadResumeButton = () => {
   return (
-    <Button size='large' onClick={downloadResume}>Download Resume</Button>
+    <FloatButton shape="square" icon={<DownloadOutlined />} tooltip="Download My Resume" size='large' onClick={downloadResume}>Download Resume</FloatButton>
   );
 };
 
