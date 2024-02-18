@@ -2,7 +2,7 @@ import { Button, FloatButton } from 'antd';
 import YourResumePDF from './../A4 - 1.pdf';
 
 import {DownloadOutlined} from '@ant-design/icons'
-const downloadResume = () => {c
+const downloadResume = () => {
   const downloadLink = document.createElement('a');
   downloadLink.href = YourResumePDF;
   downloadLink.download = 'Pradeep Thirummorthy.pdf';
