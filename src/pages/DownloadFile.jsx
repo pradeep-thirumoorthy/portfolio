@@ -7,7 +7,7 @@ const downloadResume = () => {
   downloadLink.href = YourResumePDF;
 
   // Update the filename dynamically
-  const fileName = 'Pradeep Thirumoorthy.pdf';
+  const fileName = 'Pradeepthirumoorthy.pdf';
   downloadLink.download = fileName;
 
   document.body.appendChild(downloadLink);

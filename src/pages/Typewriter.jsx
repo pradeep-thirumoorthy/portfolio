@@ -7,6 +7,7 @@ import Typewriter from 'typewriter-effect';
 const TypewriterList = () => {
 
   return (
+    <div style={{color:'white'}}>
     <Typewriter
               options={{
                 strings: [
@@ -17,12 +18,14 @@ const TypewriterList = () => {
                   "My goal is to go beyond meeting expectations – I want to surpass them and create websites that people love to use.",
                   "Let's make the digital world more amazing together!"
                 ],
+                
                 delay:6,
                 deleteSpeed:3,
                 autoStart: true,
                 loop: true,
               }}
             />
+            </div>
   );
 };
 
