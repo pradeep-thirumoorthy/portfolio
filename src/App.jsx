@@ -9,7 +9,8 @@ import Navbar from './Navbar'
 import Contact from './pages/contact'
 import { useState } from 'react'
 import { ConfigProvider, Drawer,theme } from 'antd'
-import Spinner from './pages/Spinner'
+import Spinner from './pages/Spinner';
+import { Analytics } from '@vercel/analytics/react';
 function App() {
   const [isitopen,setisitopen] = useState(false);
   window.onscroll=()=>{
@@ -37,8 +38,8 @@ function App() {
         
         <Contact/>
       </Drawer>
-      
       </ConfigProvider>
+      <Analytics/>
       </div>
     </>
   )

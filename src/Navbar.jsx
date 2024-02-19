@@ -3,7 +3,6 @@ import './Navbar.css';
 import { Anchor, Button, ConfigProvider, Dropdown, Flex, Image, Menu } from 'antd';
 import logo from './logo.svg';
 import { MenuOutlined } from '@ant-design/icons';
-
 const Navbar = ({ setisit }) => {
   const [topheight, setheight] = useState(0);
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);

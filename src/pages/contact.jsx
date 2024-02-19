@@ -133,8 +133,8 @@ const Contact = () => {
             </form>
             <Flex wrap='wrap' gap={'large'} align='center' justify='center' className='contact-list'>
                 <div>
-                    <a target='blank' href='https://www.linkedin.com/in/pradeep-thirumoorthy/'><LinkedinFilled style={{fontSize:'50px'}}/></a>
-                </div>
+                    <a href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=pradeep-thirumoorthy" target="blank"><LinkedinFilled style={{fontSize:'50px'}}/></a>
+                    </div>
                 <div>
                     <a target='blank' href='https://github.com/pradeep-thirumoorthy'><GithubFilled style={{fontSize:'50px'}}/></a>
                 </div>
