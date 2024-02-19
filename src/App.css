@@ -87,14 +87,7 @@
     margin: 0px 100px ;
   }
 }
-.navbar.dim {
-  background-color: #646cffaa;
-  pointer-events: none;
-}
-.page-component.dim {
-  opacity: 0.4;
-  pointer-events: none;
-}
+
 body {
   background-attachment: fixed;
   overscroll-behavior-block: none;
@@ -121,5 +114,5 @@ body {
 
 #Home
 {
-  padding-top: 60px;
+  padding-top: 52px;
 }

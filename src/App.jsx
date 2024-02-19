@@ -13,16 +13,12 @@ import Spinner from './pages/Spinner';
 import { Analytics } from '@vercel/analytics/react';
 function App() {
   const [isitopen,setisitopen] = useState(false);
-  window.onscroll=()=>{
-    console.log("hello");
-  }
-  const [show,setshow]=useState(false)
   return (
     <>
-    <div className={`${(isitopen || show) ? 'dime' : ''}`}>
+    <div>
     <Navbar setisit={() => setisitopen(true)}/>
     </div>
-      <div className={`page-component ${(isitopen || show) ? 'dim' : ''}`}>
+      <div className={`page-component`}>
         
         <div id='Home' ><Home/></div>
         <div id='About'><About/></div>
