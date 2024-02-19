@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import './project.css';
 import jsondata from './data.json';
-import { Card, Carousel, ConfigProvider, Empty, Image, Modal, theme } from 'antd';
+import { Card, Carousel, ConfigProvider, Empty, Modal, theme } from 'antd';
 import {
   LinkOutlined,
 } from '@ant-design/icons';
@@ -77,7 +77,7 @@ const Projects = () => {
         <h3>Team Members:</h3>
         <ul>
           {selectedProject.teamMembers.map((member, index) => (
-            <li key={index}>{member.name} - {member.role}&nbsp;<a href={member.Link}><LinkOutlined/></a></li>
+            <li key={index}>{member.name} - {member.role}&nbsp;<a target='blank' href={member.Link}><LinkOutlined/></a></li>
           ))}
         </ul>
         <h3>Link :<a href={selectedProject.Link}>{selectedProject.Link}</a></h3>
