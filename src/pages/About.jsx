@@ -45,6 +45,8 @@ I love solving problems and making things work smoothly. I believe in writing ne
                     <Text strong>CGPA </Text><div>:</div><div> 8.24</div>
                 </Flex><Flex wrap="wrap" gap="large" >
                     <Text strong>Batch </Text><div>:</div><div> 2025</div>
+                </Flex><Flex wrap="wrap" gap="large" >
+                    <Text strong>College </Text><div>:</div><div>Kongu Engineering College.</div>
                 </Flex>
             </div>
             <Title level={5}>HSC</Title>
@@ -55,6 +57,8 @@ I love solving problems and making things work smoothly. I believe in writing ne
                     <Text strong>CGPA </Text><div>:</div><div> 8.24</div>
                 </Flex><Flex wrap="wrap" gap="large" >
                     <Text strong>Batch </Text><div>:</div><div> 2025</div>
+                </Flex><Flex wrap="wrap" gap="large" >
+                    <Text strong>School </Text><div>:</div><div> K.V.M.Hr.Sec.School -Chennimalai.</div>
                 </Flex>
             </div>
             <Title level={5}>SSLC</Title>
@@ -65,6 +69,8 @@ I love solving problems and making things work smoothly. I believe in writing ne
                     <Text strong>CGPA </Text><div>:</div><div> 8.24</div>
                 </Flex><Flex wrap="wrap" gap="large" >
                     <Text strong>Batch </Text><div>:</div><div> 2025</div>
+                </Flex><Flex wrap="wrap" gap="large" >
+                    <Text strong>School </Text><div>:</div><div> K.V.M.Hr.Sec.School -Chennimalai.</div>
                 </Flex>
             </div>
     
