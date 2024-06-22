@@ -3,7 +3,7 @@
     position: fixed;
     margin-left: 100%;
     width: 400px;
-    background-color: #1a1a1a;
+    background-color: #373a40;
     transition: 0.4s;
     height: 100vh;
     z-index: 20;
@@ -72,7 +72,7 @@ a:hover svg path {
     
     display: flex;
     flex-shrink: initial;
-    color: #1a1a1a;
+    color: #373a40;
     pointer-events: none;
     
     position: relative;
@@ -81,7 +81,7 @@ a:hover svg path {
   }
   
   .contact-title span {
-    color: #1a1a1a;
+    color: #373a40;
     text-transform: uppercase;
     animation: flip 3s infinite;
     animation-delay: calc(.18s * var(--i))

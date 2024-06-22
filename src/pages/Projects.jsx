@@ -52,7 +52,7 @@ const Projects = () => {
           <ConfigProvider theme={{ algorithm: theme.darkAlgorithm}}>
         <div className="Project-Cards">
           {data.map((index) => (
-            <Card className='Card-100' key={index.title} >
+            <Card style={{backgroundColor:"rgba(0,0,0,0.3)"}} className='Card-100' key={index.title} >
               <div className='card-view'>
                 <a onClick={() => {setOpen(true);setSelectedProject(index)}}>View</a></div>
               <h1>{index.title}</h1>

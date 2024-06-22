@@ -42,7 +42,7 @@
   height: 105vh;
   margin:0px 10px;
   padding: 60px 0px 0px 0px;
-  background-color: #1a1a1a;
+  background-color: #373a40;
 }
 
 .page-container2
@@ -50,7 +50,7 @@
   
   min-height: 105vh;
   margin:0px 10px;
-  background-color: #1a1a1a;
+  background-color: #373a40;
 }
 .page-component {
   width: 100%;
@@ -94,7 +94,6 @@ body {
   opacity: 0;
   background-image: none;
   background-size:contain;
-  background-image: url("./1000_F_80729070_Fg588yDXhgfzTmMmKACcOCY73Lem29Q7.jpg");
 }
 
 body {

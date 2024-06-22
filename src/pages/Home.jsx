@@ -8,9 +8,10 @@ import TypewriterList from './Typewriter';
 const Home = () =>{
     const data = ['I',"'",'m',' ','P','R','A','D','E','E','P','.','T']
     return(
-        <div className="page-container" style={{backgroundColor:'#1a1a1a'}}>
+        <div className="page-container" style={{backgroundColor:'#373a40'}}>
             <div className='profile-photo'>
-                <Image style={{borderRadius:'100%',marginBottom:'40px'}} src={logo} height={'250px'} width={'250px'}></Image>
+                <div className='home__img'></div>
+                {/* <Image style={{borderRadius:'100%',marginBottom:'40px'}} src={logo} height={'250px'} width={'250px'}></Image> */}
             </div>
             <div className=' grid-container'>
             <div className='item1'>

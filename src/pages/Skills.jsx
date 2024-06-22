@@ -34,11 +34,11 @@ const Skills = () => {
     <div className="page-container2">
       <Spinner text={'SKILL SET'} />
       <div className="col-md-12" style={{ fontSize: "2rem" }}>
-        <Flex wrap="wrap" gap="16px" style={{overflowY:'scroll'}}>
+        <Flex wrap="wrap" gap="16px">
           {cardData.map((data, index) => {
             const key = `card-${index}`;
             return (
-              <Card
+              <Card style={{backgroundColor:'rgba(255,255,255,0.51)'}}
                 key={key}
                 hoverable
                 

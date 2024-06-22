@@ -58,22 +58,4 @@
   scroll-snap-type: x mandatory;
 }
 
-.Card {
-  overflow-y: auto;
-  margin: 10px;
-  max-width: 320px;
-  width: 320px;
-  height: 62vh;
-  display: inline-block;
-  white-space: wrap;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-}
-
-@media screen and (min-width: 600px) {
-  .Card {
-    width: 400px;
-    max-width: 400px;
-  }
-}
 

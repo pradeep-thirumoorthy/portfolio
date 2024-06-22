@@ -20,7 +20,7 @@ height: 0;
   position: relative;
 }
 .Title span {
-  color: #1a1a1a;
+  color: #373a40;
   text-transform: uppercase;
   animation: flip 3s infinite;
   animation-delay: calc(.18s * var(--i))
@@ -117,5 +117,31 @@ height: 0;
   display:flex;
   width:100%;
   justify-content:flex-end;
-  z-index: 50;
 }
+.home__img{
+  background: url(./../pages/1707833865317.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  order: 1;
+  
+  z-index: 50;
+  justify-self: center;
+  width: 300px;
+  height: 300px;
+  animation: profile__animate 8s ease-in-out infinite 1s;
+
+}
+
+@keyframes profile__animate{
+  0%{
+      border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+  50%{
+      border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+  100%{
+      border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
+

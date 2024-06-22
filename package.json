@@ -7,7 +7,8 @@
     "dev": "vite --host",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start":"vite --host 0.0.0.0 --port 5001"
   },
   "dependencies": {
     "@vercel/analytics": "^1.2.1",
@@ -17,6 +18,7 @@
     "emailjs-com": "^3.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-social-media-embed": "^2.5.13",
     "typewriter-effect": "^2.21.0",
     "vue": "^3.4.19"
   },
